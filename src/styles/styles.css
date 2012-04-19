@@ -1,0 +1,162 @@
+body, html {
+	background-color:#6f4c30;
+	margin:0;
+	padding:0;
+	height:100%;
+	font-family:Georgia, Garamond, serif;
+	color:#fff;
+}
+
+
+body {
+	background-image:url(../images/darkinback.gif);
+	background-repeat:no-repeat;
+	background-position:center center;
+	font-size:62.5%;
+}
+
+
+/* Fix clearing bug */
+.clearfix:after {
+	content:".";
+	display:block;
+	height:0;
+	clear:both;
+	visibility:hidden;
+}
+
+.clearfix {display:inline-block;}
+/* Hide from IE Mac \*/
+.clearfix {display:block;}
+/* End hide from IE Mac */
+
+
+/* Hides from IE-mac \*/
+* html .clearfix {height: 1%;}
+/* End hide from IE-mac */
+
+
+img {
+	border:0;
+}
+
+div#shim {
+    visibility: hidden;
+    width: 100%;
+    height: 50%;                                                                
+    margin-top: -225px;                                                              
+    float: left;
+}
+
+
+#container {
+	background: #3c3d34;
+	width: 739px;
+    height: 450px;
+	margin-left:auto;
+	margin-right:auto;
+    clear: both;
+}
+
+#services p {
+
+	font-family: "Lucida Sans Unicode", "Lucida Grande";
+}
+
+h1 {
+	text-transform:lowercase;
+	font-size:4.5em;
+	font-weight:normal;
+	margin:0 0.5em;
+	padding-top:0.4em;
+}
+
+h2 {
+	font-weight:normal;
+	font-size:1.5em;
+	margin:0;
+	padding:1em 0 0.8em 0;	
+}
+
+p {
+	font-size:1.2em;
+	margin-top:0;
+	line-height:1.4em;
+}
+
+p.intro {
+	font-size:1.7em;
+	line-height:1.4em;
+	width:75%;
+	margin:0.5em 0 0.3em 1.4em;
+}
+
+#services {
+	background-color:#47463a;
+	margin:2.5em 2.4em 0.2em 2.4em;
+}
+
+.service {
+	width:29%;
+	float:left;
+	margin-left:2.3em;
+	min-height:180px;
+	display:inline;
+}
+
+* html .service {
+	height:180px;
+}
+
+#footer {
+	margin:1.1em 2.4em 0 2.4em;
+}
+
+#footer h2 {
+	font-size:2.1em;
+	margin:0;
+	padding:0.3em 0 0.6em 0;
+}
+
+#footer a {
+	color:#fff;
+	text-decoration:none;
+}
+
+.words {
+	width:60%;
+	float:right;
+}
+
+.words p {
+	font-size:1.2em;
+	font-family: "Lucida Sans Unicode", "Lucida Grande",sans-serif;
+}
+
+.logos {
+	width:240px;
+	float:right;
+	text-align:right;
+	padding-top:1.2em;
+}
+
+.logos img {
+	margin-left:0.7em;
+}
+
+#tag{
+	font-size: 154%;
+	margin-left:200px;
+	margin-top:-7px;
+}
+
+p.copyright {
+	width:739px;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:right;
+	clear:both;
+	font-size:1.2em;
+	margin-top:0.3em;
+	color:#3c3d34;
+}
